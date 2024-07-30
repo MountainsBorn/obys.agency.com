@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#page2{
+    height: 120vh;
+    width: 100%;
+    background-color: #5F6B4B;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(169, 100, 9);
+}
+#page2 #page21{
+ padding-top: 60px;
+}
+#page21 h1{
+    /* padding-top: 20px; */
+    font-size: 2.9vw;
+    font-weight: 800;
+    text-align: center;
+    color: #434B34;
+    font-family: PP woodland;
+    /* padding-bottom: 20px; */
+    /* margin-top: 20px; */
+
+}

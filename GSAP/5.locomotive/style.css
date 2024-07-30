@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(47, 18, 74);
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(116, 108, 123);
+}
+#page2 #img-div{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

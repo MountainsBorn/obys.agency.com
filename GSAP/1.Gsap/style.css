@@ -1,0 +1,12 @@
+#box{
+    height: 300px;
+    width: 300px;
+    /* background-color:pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    flex-direction: column;
+    background-color: green;
+    border-radius: 60px;
+}

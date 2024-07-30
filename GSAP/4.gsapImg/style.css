@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+}
+img{
+    height: 100%;
+    width: 20%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
